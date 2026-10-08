@@ -1,0 +1,26 @@
+# 构建产物
+build/
+*.pyd
+*.obj
+*.exp
+*.lib
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# ncu 报告与调试中间物
+*.ncu-rep
+*_raw.csv
+p13_sass.txt
+
+# 本地历史工件 (git 之前的多轮源码快照 / 一次性调试脚本; 不进库但保留在磁盘)
+versions/
+attic/
+
+# IDE
+.vscode/
+.idea/
